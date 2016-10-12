@@ -1,0 +1,14 @@
+{#
+/**
+ * @file
+ * Theme implementation of youtube_iframe field formatter.
+ *
+ * Available variables:
+ * - url: The URL to the youtube video.
+ * - height: Height of the iframe.
+ * - width: Width of the iframe.
+ * - autoplay: If the autoplay is enabled or not.
+ *
+ */
+#}
+<iframe width="{{ width }}" height="{{ height }}" src="{{ url }}?autoplay={{ autoplay }}" frameborder="0" allowfullscreen></iframe>

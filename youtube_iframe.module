@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Provides the flexibility to convert YouTube URLs to iframes.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function youtube_iframe_theme() {
+  return array(
+    'youtube_iframe_formatter' => array(
+      'variables' => array('url' => NULL, 'height' => NULL, 'width' => NULL, 'autoplay' => NULL),
+      'template' => 'youtube-iframe-formatter',
+    ),
+  );
+}

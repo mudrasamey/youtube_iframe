@@ -1,0 +1,4 @@
+name: 'Youtube Iframe'
+description: 'Provides the flexibility to convert YouTube URLs to iframes.'
+core: 8.x
+type: module
